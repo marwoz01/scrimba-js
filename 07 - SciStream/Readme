@@ -1,0 +1,15 @@
+# SciStream
+
+Projekt wykonany w ramach kursu.  
+Stworzyłem responsywny, naukowy layout wykorzystując nowoczesne właściwości CSS.
+
+## Użyte właściwości CSS:
+
+- `grid-template-columns`, `grid-template-rows`, `grid-template-areas`
+- `grid-column`, `grid-row`, `grid-auto-rows`, `grid-auto-flow`
+- `span`, `grid lines`, `auto-fit`, `dense`
+- `repeat()`, `minmax()`, `fr` unit, `gap`
+
+## Podgląd
+
+https://marwoz01.github.io/Scrimba/07%20-%20SciStream/
