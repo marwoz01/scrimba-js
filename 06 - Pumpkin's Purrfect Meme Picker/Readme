@@ -1,0 +1,19 @@
+# Pumpkin's Purrfect Meme Picker – wybór idealnego kociego mema
+
+Projekt zrealizowany w ramach kursu Scrimba.  
+Aplikacja pozwala wybrać mema lub gifa kota na podstawie nastroju użytkownika, korzystając z formularza z radiobuttonami i checkboxami.
+
+## 🧠 W trakcie projektu przećwiczono:
+
+- for of  
+- radio & checkbox inputs  
+- getElementsByClassName  
+- querySelector  
+- classList.remove  
+- import/export  
+- .includes()  
+- .filter()  
+
+## 🔍 Podgląd
+
+https://marwoz01.github.io/Scrimba/09%20-%20Pumpkin's%20Purrfect%20Meme%20Picker/
