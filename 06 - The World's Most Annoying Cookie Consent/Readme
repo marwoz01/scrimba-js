@@ -1,0 +1,19 @@
+# The World's Most Annoying Cookie Consent – popup z ciasteczkami i formularzem
+
+Projekt wykonany w ramach kursu Scrimba.  
+Stworzyłem irytujący popup zgody na ciasteczka z ukrytym formularzem, ćwicząc obsługę zdarzeń, formularzy i manipulację DOM.
+
+## 🧠 W trakcie projektu przećwiczono:
+
+- setTimeout  
+- element.style  
+- forms  
+- formData & .get()  
+- event.preventDefault  
+- CSS: row-reverse  
+- toggling classes  
+- ‘disabled’ attribute  
+
+## 🔍 Podgląd
+
+https://marwoz01.github.io/Scrimba/06%20-%20Cookie%20Consent/
