@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Smythe", Arial;
+  font-weight: 400;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("/img/header-background.png");
+  color: #fff;
+  padding: 2rem 0;
+  margin-bottom: 4rem;
+}
+
+header h1,
+header h4 {
+  font-weight: 400;
+  margin: 1rem;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header h4 {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.card-start {
+  width: 20%;
+}
+
+.card-start p {
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-mid {
+  width: 60%;
+}
+
+.card-end {
+  width: 20%;
+}
+
+.card-title,
+.card-ingredients,
+.card-price {
+  font-weight: 400;
+  margin: 0;
+}
+
+.card-title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0.4 1rem;
+}
+
+.card-ingredients {
+  margin: 0 1rem;
+  color: gray;
+}
+
+.card-price {
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.card-btn {
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border-color: gray;
+  background-color: #fff;
+}
