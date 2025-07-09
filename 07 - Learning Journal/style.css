@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1080px;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 0.85rem;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  padding: 1.25em 0;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav li {
+  margin-left: 1.25em;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #090909;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.article-top {
+  background-image: url(./assets/article-image-hero.png);
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.article-top h5 {
+  margin: 6em 0 0 0;
+}
+
+.article-top p {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.articles-bottom {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+article img {
+  padding: 2em 0 1em 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+article p,
+article h5 {
+  margin: 0;
+}
+
+.articles p {
+  color: #505050;
+}
+
+article h1 {
+  font-size: 1.5em;
+  margin: 0.25em 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #202020;
+  color: #ececec;
+  padding: 2.5em 0;
+}
+
+footer h3,
+footer p {
+  margin: 0;
+}
