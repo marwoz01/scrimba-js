@@ -10,7 +10,6 @@ body {
 .container {
   margin: 0 auto;
   width: 90%;
-  max-width: 1080px;
 }
 
 h1 {
@@ -62,7 +61,6 @@ nav ul {
 a {
   text-decoration: none;
   color: #090909;
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 0.75rem;
 }
@@ -72,8 +70,10 @@ a {
   background-size: cover;
   color: white;
   display: flex;
-  align-items: center;
-  padding: 1em 0;
+  align-items: end;
+  aspect-ratio: 16/6;
+  padding: 4em 0;
+  cursor: pointer;
 }
 
 .article-top h5 {
@@ -83,6 +83,15 @@ a {
 .article-top p {
   margin-top: 0;
   line-height: 1.5;
+}
+
+.articles h4 {
+  text-align: center;
+  margin: 0;
+}
+
+.about-me img {
+  width: 180px;
 }
 
 .articles-bottom {
@@ -103,6 +112,13 @@ article h5 {
   margin: 0;
 }
 
+.articles .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
 .articles p {
   color: #505050;
 }
@@ -112,14 +128,54 @@ article h1 {
   margin: 0.25em 0;
 }
 
+.view-more {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 2.5em 0;
+}
+
 footer {
   text-align: center;
   background-color: #202020;
   color: #ececec;
-  padding: 2.5em 0;
+  padding: 1.5em 0;
 }
 
 footer h3,
 footer p {
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .articles .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .article-top h5 {
+    margin: 6em 0 0 0;
+    font-size: 1rem;
+  }
+
+  .article-top h1 {
+    font-size: 3rem;
+  }
+
+  .article-top p {
+    margin-top: 0;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    width: 50%;
+  }
+
+  .about-me {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-me-info {
+    padding-left: 2em;
+  }
 }
