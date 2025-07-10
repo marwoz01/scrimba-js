@@ -1,4 +1,4 @@
-APIs & BoredBot
+# APIs & BoredBot
 Projekt zrealizowany w ramach kursu Scrimba.
 Aplikacja ilustruje, jak działa komunikacja z serwerem – od wysłania zapytania fetch, przez odebranie odpowiedzi, aż po przetworzenie danych JSON i wyświetlenie ich na stronie.
 
