@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Scheme Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <input type="color" />
+        <select name="color-styles" id="color-styles">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-Complement</option>
+          <option value="triad">Triad</option>
+        </select>
+        <button>Get color scheme</button>
+      </header>
+
+      <main class="color-grid">
+        <div class="color-box">kolor</div>
+        <div class="color-box">kolor</div>
+        <div class="color-box">kolor</div>
+        <div class="color-box">kolor</div>
+        <div class="color-box">kolor</div>
+      </main>
+
+      <footer>
+        <p>#color</p>
+        <p>#color</p>
+        <p>#color</p>
+        <p>#color</p>
+        <p>#color</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
