@@ -3,6 +3,7 @@ Projekt zrealizowany w ramach kursu Scrimba.
 Aplikacja pozwala przeglądać listę postów pobranych z zewnętrznego API oraz dodawać nowe wpisy za pomocą formularza.
 
 W trakcie projektu przećwiczono:
+
 HTTP Requests:
 - adresy URL i endpoints
 - metody HTTP (GET, POST)
