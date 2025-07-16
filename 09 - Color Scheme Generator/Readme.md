@@ -9,4 +9,4 @@ Aplikacja umożliwia wybór koloru bazowego i stylu (np. monochrome, triad), a n
 - querySelectorAll, forEach, .map()
 
 🔍 Podgląd
-https://marwoz01.github.io/Scrimba/10%20-%20Color%20Scheme%20Generator/
+https://marwoz01.github.io/Scrimba/09%20-%20Color%20Scheme%20Generator/
