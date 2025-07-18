@@ -1,4 +1,4 @@
-🎬 Movie Watchlist
+# 🎬 Movie Watchlist
 Prosty projekt z kursu Scrimba, pozwalający wyszukiwać filmy i dodawać je do listy „do obejrzenia”.
 
 Funkcje:
