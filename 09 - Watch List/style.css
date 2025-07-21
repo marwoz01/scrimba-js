@@ -89,3 +89,44 @@ main p {
   align-items: center;
   justify-content: center;
 }
+
+.movies-list {
+  max-width: 500px;
+}
+
+.movie {
+  display: flex;
+  border-bottom: 1px solid #444;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  height: 35%;
+}
+
+.movie img {
+  width: 30%;
+  height: 100%;
+}
+
+.movie-info {
+  padding-left: 0.8rem;
+}
+
+.title-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.8rem 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 8px;
+}
+
+.description {
+  color: #a5a5a5;
+  font-weight: 400;
+}
