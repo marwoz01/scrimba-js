@@ -16,4 +16,7 @@ Celem tej części było ulepszenie wyglądu i użyteczności istniejącej stron
 Strona została przystosowana do działania na różnych urządzeniach – od telefonów po duże ekrany.
 
 ## 🔍 Podgląd
-https://marwoz01.github.io/Scrimba/10%20-%20Project%20Refactoring/
+Przed
+https://marwoz01.github.io/Scrimba/10%20-%20Project%20Refactoring/10%20-%20Project%20Refactoring%20-%20przed/
+Po
+https://marwoz01.github.io/Scrimba/10%20-%20Project%20Refactoring/10%20-%20Project%20Refactoring%20-%20po/
