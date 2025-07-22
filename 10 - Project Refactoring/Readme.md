@@ -18,5 +18,6 @@ Strona została przystosowana do działania na różnych urządzeniach – od te
 ## 🔍 Podgląd
 Przed
 https://marwoz01.github.io/Scrimba/10%20-%20Project%20Refactoring/10%20-%20Project%20Refactoring%20-%20przed/
+
 Po
 https://marwoz01.github.io/Scrimba/10%20-%20Project%20Refactoring/10%20-%20Project%20Refactoring%20-%20po/
