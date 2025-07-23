@@ -33,9 +33,14 @@ function displayMoviesList(movies) {
     )
       .then((res) => res.json())
       .then((fullData) => {
+        const poster =
+          fullData.Poster !== "N/A"
+            ? fullData.Poster
+            : "./img/nomovie-placeholder.png";
+
         moviesList.innerHTML += `
           <div class="movie">
-            <img src="${fullData.Poster}" />
+            <img src="${poster}" onerror="this.onerror=null;this.src='./img/nomovie-placeholder.png';" />
             <div class="movie-info">
               <div class="title-rating">
                 <h3>${fullData.Title}</h3>
