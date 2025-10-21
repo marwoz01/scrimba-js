@@ -1,3 +1,5 @@
+**Live demo:** https://marwoz01.github.io/scrimba-js/projects/09%20-%20Dashboard/
+
 # 🌤️ Weather App – prosta aplikacja pogodowa
 Projekt zrealizowany w ramach kursu Scrimba. Aplikacja pobiera dane z API pogodowego i wyświetla aktualne informacje o pogodzie – ikonę, temperaturę oraz nazwę miasta. Tło strony dynamicznie zmienia się na podstawie zdjęcia z Unsplash.
 
@@ -18,4 +20,4 @@ W trakcie projektu przećwiczono:
   - Template literals `tekst ${zmienna}`
   - Obiekt Date i Math.round()
 
-🔗 Podgląd: https://marwoz01.github.io/Scrimba/09%20-%20Dashboard
+🔗 Podgląd: https://marwoz01.github.io/scrimba-js/projects/09%20-%20Dashboard/

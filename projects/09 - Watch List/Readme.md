@@ -1,3 +1,5 @@
+**Live demo:** https://marwoz01.github.io/scrimba-js/projects/09%20-%20Watch%20List/
+
 # 🎬 Movie Watchlist
 Projekt, pozwalający wyszukiwać filmy i dodawać je do listy „do obejrzenia”.
 
@@ -7,4 +9,4 @@ Funkcje:
 - Zachowanie danych w localStorage
 
 Podgląd:
-https://marwoz01.github.io/Scrimba/09%20-%20Watch%20List/
+https://marwoz01.github.io/scrimba-js/projects/09%20-%20Watch%20List/

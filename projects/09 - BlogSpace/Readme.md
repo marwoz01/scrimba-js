@@ -1,3 +1,5 @@
+**Live demo:** https://marwoz01.github.io/scrimba-js/projects/09%20-%20BlogSpace/
+
 # BlogSpace – prosty blog z API
 Projekt zrealizowany w ramach kursu Scrimba.
 Aplikacja pozwala przeglądać listę postów pobranych z zewnętrznego API oraz dodawać nowe wpisy za pomocą formularza.
@@ -15,4 +17,4 @@ REST APIs:
 - używanie parameters i queries w żądaniach
 
 🔍 Podgląd
-https://marwoz01.github.io/Scrimba/09%20-%20BlogSpace/
+https://marwoz01.github.io/scrimba-js/projects/09%20-%20BlogSpace/

@@ -1,3 +1,5 @@
+**Live demo:** https://marwoz01.github.io/scrimba-js/projects/10%20-%20Project%20Refactoring/
+
 # Project Refactoring – poprawa UX/UI
 
 Projekt zrealizowany w ramach kursu Scrimba.
@@ -17,7 +19,7 @@ Strona została przystosowana do działania na różnych urządzeniach – od te
 
 ## 🔍 Podgląd
 Przed
-https://marwoz01.github.io/Scrimba/10%20-%20Project%20Refactoring/10%20-%20Project%20Refactoring%20-%20przed/
+https://marwoz01.github.io/scrimba-js/projects/10%20-%20Project%20Refactoring/
 
 Po
-https://marwoz01.github.io/Scrimba/10%20-%20Project%20Refactoring/10%20-%20Project%20Refactoring%20-%20po/
+https://marwoz01.github.io/scrimba-js/projects/10%20-%20Project%20Refactoring/
