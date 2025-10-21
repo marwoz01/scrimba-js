@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scrimba JS Projects</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0f0f0f;
+      color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #00bfa6;
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      width: 100%;
+      max-width: 600px;
+    }
+    li {
+      background: #1a1a1a;
+      margin: 10px 0;
+      border-radius: 10px;
+      padding: 15px 20px;
+      transition: background 0.2s ease;
+    }
+    li:hover {
+      background: #242424;
+    }
+    a {
+      color: #00bfa6;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <h1>Scrimba Vanilla JS Projects</h1>
+  <ul id="projects"></ul>
+
+  <script>
+    const projects = [
+      "06 - Mobile Ordering App",
+      "06 - Pumpkin's Purrfect Meme Picker",
+      "06 - The World's Most Annoying Cookie Consent",
+      "06 - Twimba, Twitter Clone",
+      "07 - Learning Journal",
+      "07 - NFT Site, responsiveness",
+      "07 - SciStream",
+      "07 - Splash Page",
+      "09 - BlogSpace",
+      "09 - BoredBot",
+      "09 - Color Scheme Generator",
+      "09 - Dashboard",
+      "09 - Game of War",
+      "09 - Watch List",
+      "10 - Project Refactoring"
+    ];
+
+    const ul = document.getElementById("projects");
+    projects.forEach(name => {
+      const li = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = `projects/${encodeURIComponent(name)}/`;
+      link.textContent = name;
+      li.appendChild(link);
+      ul.appendChild(li);
+    });
+  </script>
+</body>
+</html>
