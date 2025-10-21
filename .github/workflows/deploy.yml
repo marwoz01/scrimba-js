@@ -18,11 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # publikujemy CAŁE repo (w tym folder /projects)
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
